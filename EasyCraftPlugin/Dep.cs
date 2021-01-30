@@ -136,7 +136,7 @@ namespace EasyCraftPlugin
         public string author;
         public string link;
         public string description;
-        public string[] hooks;
+        public Dictionary<string,int> hooks;
         public string[] auth;
     }
 }
