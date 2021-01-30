@@ -15,7 +15,7 @@ namespace EasyCraftPlugin
         public static string name = "BDS 插件注入"; //插件名称
         public static string author = "Kengwang @ EasyCraft Team"; //作者名称
         public static string description = "可以注入 BDS DLL插件"; //插件简介
-
+        public static string version = "1.0.0"; //插件版本
         public static string link = "https://www.easycraft.top"; //插件地址
         //上方修改成你的插件信息
 
@@ -50,6 +50,7 @@ namespace EasyCraftPlugin
                 author = author,
                 description = description,
                 link = link,
+                version = version,
                 hooks = Hooks,
                 auth = Auth
             };
